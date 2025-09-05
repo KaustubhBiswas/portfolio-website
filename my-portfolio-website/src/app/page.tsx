@@ -241,7 +241,7 @@ export default function Portfolio() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
             {/* Tech Stack */}
             <Card className="bg-gray-900/50 border-gray-700/50 hover:bg-gray-800/50 transition-all duration-300">
-              <CardContent className="p-6 h-full">
+              <CardContent className="p-6 h-full text-white">
                 <div className="flex items-center gap-2 mb-4">
                   <Database className="w-6 h-6 text-blue-400" />
                   <h3 className="text-xl font-bold">Tech Stack</h3>
@@ -271,7 +271,7 @@ export default function Portfolio() {
 
             {/* Experience */}
             <Card className="bg-gray-900/50 border-gray-700/50 hover:bg-gray-800/50 transition-all duration-300">
-              <CardContent className="p-6 h-full">
+              <CardContent className="p-6 h-full text-white">
                 <div className="flex items-center gap-2 mb-4">
                   <Award className="w-6 h-6 text-purple-400" />
                   <h3 className="text-xl font-bold">Experience</h3>
@@ -291,7 +291,7 @@ export default function Portfolio() {
 
             {/* Contact */}
             <Card className="bg-gray-900/50 border-gray-700/50 hover:bg-gray-800/50 transition-all duration-300">
-              <CardContent className="p-6 h-full">
+              <CardContent className="p-6 h-full text-white">
                 <div className="flex items-center gap-2 mb-4">
                   <MessageCircle className="w-6 h-6 text-green-400" />
                   <h3 className="text-xl font-bold">Let's Connect</h3>
@@ -316,7 +316,7 @@ export default function Portfolio() {
 
           {/* Bottom CTA */}
           <Card className="bg-gradient-to-r from-purple-900/30 to-blue-900/30 border-purple-500/20">
-            <CardContent className="p-12 text-center">
+            <CardContent className="p-12 text-center text-white">
               <h3 className="text-3xl font-bold mb-4">Ready to start your project?</h3>
               <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
                 I'm always excited to work on new challenges and bring innovative ideas to life. Let's discuss how we
